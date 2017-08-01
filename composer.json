@@ -1,0 +1,24 @@
+{
+    "name": "patinthehat/casual-json",
+    "description": "Library for working with a less strict version of JSON.",
+    "version": "1.0",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "trick",
+            "email": "trick.developer@gmail.com"
+        }
+    ],
+    "autoload": {
+      "classmap": [],
+      "psr-4": {
+          "CasualJson\\": "src/"
+      },
+      "files": [
+      ]
+    }
+}
